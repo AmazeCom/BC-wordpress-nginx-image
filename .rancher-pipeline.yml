@@ -2,7 +2,7 @@ stages:
 - name: Build Application Frontend
   steps:
   - publishImageConfig:
-      dockerfilePath: .
+      dockerfilePath: ./Dockerfile
       buildContext: .
       tag: amazecom/wpn-srv:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
