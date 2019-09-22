@@ -7,6 +7,5 @@ stages:
       tag: amazecom/wpn-srv:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
       registry: index.docker.io
-      #env:
-      #PLUGIN_STORAGE_PATH: /var/lib/docker1
 timeout: 60
+notification: {}
